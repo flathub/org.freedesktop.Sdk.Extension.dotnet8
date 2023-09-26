@@ -56,28 +56,52 @@ First you need to have following lines in `sources.json`. These packages are nee
     "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/8.0.0-rc.1.23421.29/microsoft.aspnetcore.app.runtime.linux-arm64.8.0.0-rc.1.23421.29.nupkg",
     "sha512": "d802e547b4e495f7a6a720857b744e7b78d7d2626e3331935ba90e6c94aba86b8ed122c18306762ff8a4c5bf6739bfbdd332e0dffc58a9efa97336a88e51f2c3",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-arm64.8.0.0.nupkg"
+    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-arm64.8.0.0.nupkg",
+    "x-checker-data": {
+        "type": "html",
+        "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
+        "version-pattern": "^([\\d\\.a-z-]+)$",
+        "url-template": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/$version/microsoft.aspnetcore.app.runtime.linux-arm64.$version.nupkg"
+    }
 },
 {
     "type": "file",
     "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/8.0.0-rc.1.23421.29/microsoft.aspnetcore.app.runtime.linux-x64.8.0.0-rc.1.23421.29.nupkg",
     "sha512": "d7c5380b6d1d1ff1d0370a9975cbba6ec08e2ec601d1d360b7d5aee9e5dfcfc7ed0a480a6c56ed76a3f4f83f2cac22eed6f9d897d3ac332e3dc4c96285ff21c9",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.8.0.0.nupkg"
+    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.8.0.0.nupkg",
+    "x-checker-data": {
+        "type": "html",
+        "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
+        "version-pattern": "^([\\d\\.a-z-]+)$",
+        "url-template": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/$version/microsoft.aspnetcore.app.runtime.linux-x64.$version.nupkg"
+    }
 },
 {
     "type": "file",
     "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/8.0.0-rc.1.23421.29/microsoft.netcore.app.runtime.linux-arm64.8.0.0-rc.1.23421.29.nupkg",
-    "sha512": "34f9ab67ea990387353fb27160d35d0befc0fbeec07e6d36d881cebcd3c83031a480794f712722d41f8226532ad841a9519e3b42ead2c8a41cac2e8c2329a5a6",
+    "sha512": "31e228e5ae550a6f3e3a0fa92bfda7acc794ee3b1a6a49cf85864e1ce4a17276eb7cdee7c42cda717e74afa5836fabb5a1568503e3896cbf239555b5bd6bb166",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.netcore.app.runtime.linux-arm64.8.0.0.nupkg"
+    "dest-filename": "microsoft.netcore.app.runtime.linux-arm64.8.0.0.nupkg",
+    "x-checker-data": {
+        "type": "html",
+        "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
+        "version-pattern": "^([\\d\\.a-z-]+)$",
+        "url-template": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/$version/microsoft.netcore.app.runtime.linux-arm64.$version.nupkg"
+    }
 },
 {
     "type": "file",
     "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/8.0.0-rc.1.23421.29/microsoft.netcore.app.runtime.linux-x64.8.0.0-rc.1.23421.29.nupkg",
-    "sha512": "d5c8ad7c7c91182e5e0d10751a8dfa1ff8d998eed6cbe60eaae381b12579c7f921c3106a02206b0f1be756990872f81a3864fcda134a001583b3125bdb02389d",
+    "sha512": "924e73fa83f5f8c418a789fdedd0ef0877637587ee1aff3571e318c3e9fa910c722d45df90d6cbceac5d29ffc10c35d2ffd805731df907328ef4688137462854",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.netcore.app.runtime.linux-x64.8.0.0.nupkg"
+    "dest-filename": "microsoft.netcore.app.runtime.linux-x64.8.0.0.nupkg",
+    "x-checker-data": {
+        "type": "html",
+        "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
+        "version-pattern": "^([\\d\\.a-z-]+)$",
+        "url-template": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/$version/microsoft.netcore.app.runtime.linux-x64.$version.nupkg"
+    }
 },
 ```
 
