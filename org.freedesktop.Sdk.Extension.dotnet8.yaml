@@ -16,8 +16,8 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0.100-rc.1.23463.5/dotnet-sdk-8.0.100-rc.1.23463.5-linux-x64.tar.gz
-        sha256: 8316fda63801f46af1defd6d37ef28796e52f422af9c22e03710bce781dc0c11
+        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0.100-rc.2.23502.2/dotnet-sdk-8.0.100-rc.2.23502.2-linux-x64.tar.gz
+        sha256: ca092d411876413079d031a5b3dd9bbb425fb1f0a257322fe112a5376954dafd
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0/latest.version
