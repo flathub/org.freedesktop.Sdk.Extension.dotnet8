@@ -5,7 +5,6 @@ runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 build-extension: true
 separate-locales: false
-appstream-compose: false
 modules:
   - name: dotnet-sdk
     buildsystem: simple
@@ -39,8 +38,6 @@ modules:
       - cp install.sh install-sdk.sh /usr/lib/sdk/dotnet8/bin
       - cp enable.sh /usr/lib/sdk/dotnet8
       - cp org.freedesktop.Sdk.Extension.dotnet8.appdata.xml ${FLATPAK_DEST}/share/appdata
-      - appstream-compose --basename=org.freedesktop.Sdk.Extension.dotnet8 --prefix=${FLATPAK_DEST}
-        --origin=flatpak org.freedesktop.Sdk.Extension.dotnet8
     sources:
       - type: script
         commands:
