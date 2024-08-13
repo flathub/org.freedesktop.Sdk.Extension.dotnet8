@@ -15,8 +15,8 @@ modules:
     sources:
       - type: archive
         only-arches: [x86_64]
-        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0.303/dotnet-sdk-8.0.303-linux-x64.tar.gz
-        sha256: 214ee467f75c42f1512748fe7ca8dd82da2af29cdf54be614a8997f0466ef070
+        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0.400/dotnet-sdk-8.0.400-linux-x64.tar.gz
+        sha256: 218d9e696383441408d0667f871368c46c5eb6b098c73b9d9b19fcccc508af17
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0/latest.version
@@ -24,8 +24,8 @@ modules:
           url-template: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/$version/dotnet-sdk-$version-linux-x64.tar.gz
       - type: archive
         only-arches: [aarch64]
-        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0.303/dotnet-sdk-8.0.303-linux-arm64.tar.gz
-        sha256: bfd31c9a7697b24ec8e0981e3bf8a48140e0991fb028b1d355e34451f541de26
+        url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0.400/dotnet-sdk-8.0.400-linux-arm64.tar.gz
+        sha256: f6123f32690a5f85f8729cf7920c43a9bc5f46345b388c3262d0a63553d88d56
         x-checker-data:
           type: html
           url: https://dotnetcli.blob.core.windows.net/dotnet/Sdk/8.0/latest.version
