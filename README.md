@@ -53,10 +53,10 @@ First you need to have following lines in `sources.json`. These packages are nee
 ```json
 {
     "type": "file",
-    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/8.0.7/microsoft.aspnetcore.app.runtime.linux-arm64.8.0.7.nupkg",
-    "sha512": "c24df24460ace29235c6a46259d73104070fabafe27e09805d1725cb5690027491795f8198da211917dea20c5d25145d5fca6c29632c820649c01804fc4be223",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-arm64/8.0.8/microsoft.aspnetcore.app.runtime.linux-arm64.8.0.8.nupkg",
+    "sha512": "377d0e494fdd3a68a08de12f375a643cb5f2e1361d47e8663c0709cf4625dc8bb2c84d07eacacaca7a1078cc7d81ead51a42cf019be2b65096d209dfce948ae9",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-arm64.8.0.7.nupkg",
+    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-arm64.8.0.8.nupkg",
     "x-checker-data": {
         "type": "html",
         "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
@@ -66,10 +66,10 @@ First you need to have following lines in `sources.json`. These packages are nee
 },
 {
     "type": "file",
-    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/8.0.7/microsoft.aspnetcore.app.runtime.linux-x64.8.0.7.nupkg",
-    "sha512": "d988cda5c92f6d6389adfeef6883adbd5c1c1117af56a824d0db912631db27d1d4df4d8c5e72ed8c438df2037ff7ab57e5d71d14537ecc283a351e3ac3c3be48",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.app.runtime.linux-x64/8.0.8/microsoft.aspnetcore.app.runtime.linux-x64.8.0.8.nupkg",
+    "sha512": "9912abe28750c7a38a0606f63ef02c0543b55a9eaf2aeccc043b4d9bf9fabce6e17998a5e7ec53566e4e80f66b62e16820d7d53f66d1a5e5fb5f0d65b0989aff",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.8.0.7.nupkg",
+    "dest-filename": "microsoft.aspnetcore.app.runtime.linux-x64.8.0.8.nupkg",
     "x-checker-data": {
         "type": "html",
         "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
@@ -79,9 +79,9 @@ First you need to have following lines in `sources.json`. These packages are nee
 },
 {
     "type": "file",
-    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/8.0.7/microsoft.netcore.app.runtime.linux-arm64.8.0.7.nupkg",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-arm64/8.0.8/microsoft.netcore.app.runtime.linux-arm64.8.0.8.nupkg",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.netcore.app.runtime.linux-arm64.8.0.7.nupkg",
+    "dest-filename": "microsoft.netcore.app.runtime.linux-arm64.8.0.8.nupkg",
     "x-checker-data": {
         "type": "html",
         "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
@@ -91,9 +91,9 @@ First you need to have following lines in `sources.json`. These packages are nee
 },
 {
     "type": "file",
-    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/8.0.7/microsoft.netcore.app.runtime.linux-x64.8.0.7.nupkg",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.netcore.app.runtime.linux-x64/8.0.8/microsoft.netcore.app.runtime.linux-x64.8.0.8.nupkg",
     "dest": "nuget-sources",
-    "dest-filename": "microsoft.netcore.app.runtime.linux-x64.8.0.7.nupkg",
+    "dest-filename": "microsoft.netcore.app.runtime.linux-x64.8.0.8.nupkg",
     "x-checker-data": {
         "type": "html",
         "url": "https://dotnetcli.blob.core.windows.net/dotnet/aspnetcore/Runtime/8.0/latest.version",
