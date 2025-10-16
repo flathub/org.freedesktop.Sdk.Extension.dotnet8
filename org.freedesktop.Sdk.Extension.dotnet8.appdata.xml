@@ -10,8 +10,8 @@
   </description>
   <url type="homepage">https://dotnet.microsoft.com/</url>
   <releases>
-    <release version="8.0.21" date="2025-10-14">
-      <description></description>
+    <release version="8.0.415" date="2025-10-14">
+      <url type="details">https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.21/8.0.21.md</url>
     </release>
     <release version="8.0.414" date="2025-09-09">
       <url type="details">https://github.com/dotnet/core/blob/main/release-notes/8.0/8.0.20/8.0.20.md</url>
